@@ -1,3 +1,4 @@
+```javascript
 // 遷移先画面への受け渡し用変数を初期化
 $variable.elementset_parameter.S153.sub.migara_joho_hikokunin.display_list = [];
 $variable.elementset_parameter.S153.sub.migara_joho_hikokunin.add_list = [];
@@ -211,15 +212,5 @@ for (let i = 0; i < hikokunin_migara_list.length; i++) {
     $variable.elementset_parameter.S153.sub.migara_joho_hikokunin.add_list[$variable.elementset_parameter.S153.sub.migara_joho_hikokunin.add_list.length - 1].koryu_zaimei_joho.splice(0,1);
 
   };
-};   lastAl.kiso_zaimei_joho.splice(0,1);
-
-    for (let j = 0; j < dsKoryu.length; j++) {
-      jiken_mei_info.zaimei_code = dsKoryu[j].zaimei_code;
-      jiken_mei_info.zaimei_text = dsKoryu[j].zaimei_text;
-      jiken_mei_info.moto_zaimei_text = dsKoryu[j].moto_zaimei_text;
-      jiken_mei_info.henshu_flag = dsKoryu[j].henshu_flag;
-      lastAl.koryu_zaimei_joho.push(Object.assign({}, jiken_mei_info));
-    }
-    lastAl.koryu_zaimei_joho.splice(0,1);
-  };
 };
+```
